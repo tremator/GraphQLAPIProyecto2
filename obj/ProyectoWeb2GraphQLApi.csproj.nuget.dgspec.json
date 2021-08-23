@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dmsol\\OneDrive\\Documents\\progra2\\ProyectoWeb2SegundaParte\\ProyectoWeb2GraphQLApi\\ProyectoWeb2GraphQLApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dmsol\\OneDrive\\Documents\\progra2\\ProyectoWeb2SegundaParte\\ProyectoWeb2GraphQLApi\\ProyectoWeb2GraphQLApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dmsol\\OneDrive\\Documents\\progra2\\ProyectoWeb2SegundaParte\\ProyectoWeb2GraphQLApi\\ProyectoWeb2GraphQLApi.csproj",
+        "projectName": "ProyectoWeb2GraphQLApi",
+        "projectPath": "C:\\Users\\dmsol\\OneDrive\\Documents\\progra2\\ProyectoWeb2SegundaParte\\ProyectoWeb2GraphQLApi\\ProyectoWeb2GraphQLApi.csproj",
+        "packagesPath": "C:\\Users\\dmsol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmsol\\OneDrive\\Documents\\progra2\\ProyectoWeb2SegundaParte\\ProyectoWeb2GraphQLApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dmsol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "GraphQL.Server.Transports.WebSockets": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "GraphQl": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
